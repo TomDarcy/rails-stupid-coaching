@@ -1,0 +1,14 @@
+<div class="container justify-content-center">
+  <div class="row m-3">
+    <h1>Answer</h1>
+  </div>
+  <div class="row m-3">
+    <div class="card"><%= @question %></div>
+  </div>
+  <div class="row m-3">
+    <div class="card"> <%= @answer  %></div>
+  </div>
+  <div class="row m-3">
+    <%= link_to "Ask", ask_path, class: "btn btn-primary" %>
+  </div>
+</div>
